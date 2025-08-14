@@ -12,7 +12,7 @@ terraform {
   # in an Azure Storage Account. This is the fix for the "resource already exists" error.
   backend "azurerm" {
     resource_group_name  = "itsarunj-tfstate-rg"
-    storage_account_name = "itarunjtfstatestorage"
+    storage_account_name = "itsarunjtfstatestorage"
     container_name       = "itsarunj-tfstate"
     key                  = "itsarunj-terraform.tfstate"
   }
