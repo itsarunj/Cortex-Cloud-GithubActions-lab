@@ -1,4 +1,4 @@
-# main.tf - Terraform code to create a cclabtest Azure VM for demonstration.
+# main.tf blah - Terraform code to create a cclabtest Azure VM for demonstration.
 
 terraform {
   required_providers {
